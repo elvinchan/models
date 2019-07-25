@@ -1,0 +1,2 @@
+# docker run -it -v "D:\code\models\research\saved":/ai/research/saved ai-maker sh
+python object_detection/export_inference_graph.py --input_type=image_tensor --pipeline_config_path=./saved/T1/pipeline.config --trained_checkpoint_prefix=./saved/T1/model.ckpt-3000000 --output_directory=./saved/T1_001
